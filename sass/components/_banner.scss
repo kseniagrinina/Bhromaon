@@ -1,0 +1,57 @@
+.banner {
+    background-color: $color-dark-grey-2;
+    padding: 3.5rem 0 6rem 0;
+
+    &__top {
+    text-align: center;
+    }
+
+    &__wrapper {
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5rem;
+    }
+
+    &__item {
+    background-color: $color-dark-grey-2;
+    text-align: center;
+    }
+
+    .banner__title {
+    margin-top: 1.2rem;
+    }
+
+    &__icon {
+    height: 6rem;
+    margin-bottom: 1.3rem;
+
+        &--search {
+        fill: $color-blue;
+        &:hover {
+            fill: $color-white;
+        }
+    }
+
+        &--check {
+        fill: $color-red;
+        &:hover {
+            fill: $color-white;
+        }
+    }
+
+        &--thumbsup {
+        fill: $color-light-blue;
+        &:hover {
+                fill: $color-white;
+        }
+    }
+
+
+}
+}
+
+
+
+
+

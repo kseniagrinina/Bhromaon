@@ -1,0 +1,91 @@
+//Basic typography style for copy text
+.header {
+    &__title {
+    @include style-header-text;
+    font-size: 4.8rem;
+    font-weight: 700;
+    letter-spacing: .6rem;
+    text-transform: uppercase;
+}
+
+    &__subtitle {
+    @include style-header-text;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: .65rem;
+    text-transform: capitalize;
+}
+}
+
+.text {
+    color: $color-light-grey;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 2.6rem;
+    letter-spacing: .15rem;
+}
+
+.title {
+    color: $color-white;
+    font-family: Aleo, serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.box-label {
+    color: $color-light-grey;
+    letter-spacing: .15rem;
+    @include style-box-heading;
+}
+
+.box-title {
+    color: $color-white;
+    text-transform: uppercase;
+    @include style-box-heading;
+}
+
+.features__text {
+    letter-spacing: 0;
+}
+
+.card {
+    &__title {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    color: $color-white-2;
+    font-size: 2rem;
+    text-transform: uppercase;
+    }
+
+    &__text {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    color: $color-light-grey;
+    font-size: 1.6rem;
+    line-height: 26px;
+    text-align: justify;
+    }
+}
+
+.footer {
+    &__title {
+        @include style-footer-text;
+        font-size: 2.4rem;
+        font-weight: 400;
+        letter-spacing: .4rem;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+    }
+
+    &__subtitle {
+        @include style-footer-text;
+        font-weight: 300;
+        font-size: 1.6rem;
+        letter-spacing: .15rem;
+        text-transform: capitalize;
+        margin-bottom: 3rem;
+    }
+}
+

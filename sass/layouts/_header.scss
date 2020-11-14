@@ -1,0 +1,35 @@
+.header {
+    background-image: url(../img/background-hero.png);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+    &__text-box {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+    &__title {
+    margin-bottom: 1.5rem;
+    animation: moveInLeft 1s ease-out;
+    -webkit-animation: moveInLeft 1s ease-out;
+}
+
+    &__subtitle {
+    margin-bottom: 5rem;
+    animation: moveInRight 1s ease-out;
+    -webkit-animation: moveInRight 1s ease-out;
+}
+}
+
+
+
+
+

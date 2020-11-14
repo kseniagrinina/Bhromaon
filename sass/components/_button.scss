@@ -1,0 +1,21 @@
+.button {
+    width: 22.5rem;
+    height: 6rem;
+    border: none;
+    background-color: $color-blue;
+    font-family: Aleo, serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .12rem;
+    color: $color-white;
+    
+    text-align: center;
+    &:focus {
+        outline: none;
+    }
+    &:hover,
+    &:active {
+        background-color: darken($color-blue, 3%);
+        cursor: pointer;
+    }
+}

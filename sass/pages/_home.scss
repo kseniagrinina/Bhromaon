@@ -1,0 +1,75 @@
+.places {
+    background-image: url(../img/background-2.png);
+
+    &__text-box {
+    width: 75%;
+    align-self: center;
+    }
+
+    &__wrapper {
+    display: flex;
+    padding: 11.6rem 0;
+    }
+
+    &__title {
+    margin-bottom: 6rem;
+    }
+
+    &__text {
+    margin-bottom: 4.8rem;
+    }
+
+    &__pictures-box {
+    text-align: right;
+    }
+
+    &__img-1 {
+    max-width: 100%;
+    margin-right: 12.5rem;
+    }
+
+    &__img-2 {
+    max-width: 100%;
+    margin-top: .5rem;
+    }
+}
+
+.features {
+    background-image: url(../img/background-3.png);
+    @include style-section-background;
+
+    &__text {
+    margin-bottom: 4.8rem;
+}
+}
+
+.booking {
+    background-image: url(../img/background-4.png);
+    @include style-section-background;
+
+    &__text-box {
+        margin-left: auto;
+    }
+
+    &__text {
+        margin-bottom: 4.8rem;
+    }
+}
+
+.testimonials {
+    background-image: url(../img/background-5.png);
+    background-size: cover;
+    padding: 12rem 0 20rem 0;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 9rem;
+    }
+}
+
+
+
+
+
+
+

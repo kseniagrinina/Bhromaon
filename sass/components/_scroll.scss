@@ -1,0 +1,34 @@
+.scroll {
+    font-family: "Josefin Sans";
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: moveInBottom 1s ease-out;
+
+    &__link {
+        transition: all .1s ease-in;
+
+        &:link,
+        &:visited {
+        text-transform: capitalize;
+        font-size: 14px;
+        letter-spacing: .28rem;
+    }
+
+        &:hover,
+        &:active {
+        transform: translateY(.5rem);
+        }
+    }
+    
+    &__icon {
+        height: .8rem;
+        display: block;
+        margin: auto;
+        margin-top: 1.5rem;
+        fill: $color-white;
+    }
+
+}
+

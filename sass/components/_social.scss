@@ -1,0 +1,32 @@
+.social {
+    
+    &__menu {
+    display: flex;
+    padding-left: 0;
+}
+
+    &__item {
+    margin-right: 2.5rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+    &__link:hover,
+    &__link:active {
+        transition: all .1s ease-in;
+        color: $color-blue;
+        -webkit-transition: all .1s ease-in;
+        -moz-transition: all .1s ease-in;
+        -ms-transition: all .1s ease-in;
+        -o-transition: all .1s ease-in;
+}
+
+    &__icon {
+        font-size: 1.6rem;
+    }
+}
+
+
+

@@ -1,0 +1,51 @@
+.nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: $color-blue;
+
+    &__main {
+        padding: 2.8rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__logo {
+        font-family: "Josefin Sans";
+        font-size: 2.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .24rem;
+    }
+    
+    &__menu {
+        display: flex;
+    }
+    
+    &__item {
+        margin-left: 4rem;
+    }
+    
+    .nav__link {
+        &:link,
+        &:visited{
+        padding: 1rem 0;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        transition: all .1s ease-in;    ;
+        -webkit-transition: all .1s ease-in;
+        -moz-transition: all .1s ease-in;
+        -ms-transition: all .1s ease-in;
+        -o-transition: all .1s ease-in;
+}
+    
+        &:hover,
+        &:active {
+        border-bottom: 1px solid $color-white;
+    }
+    }
+    
+    
+}
+
