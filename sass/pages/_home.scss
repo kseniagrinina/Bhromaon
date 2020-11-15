@@ -1,123 +1,121 @@
 .places {
-    background-image: url(../img/background-2.png);
-    background-size: cover;
-    background-position: left;
+  background-image: url(../img/background-2.png);
+  background-size: cover;
+  background-position: left;
 
-    &__text-box {
+  &__text-box {
     width: 75%;
     align-self: center;
-    }
+  }
 
-    &__wrapper {
+  &__wrapper {
     display: flex;
     padding: 11.6rem 0;
 
     @include responsive(phone) {
-        padding: 6rem 0;
-      }
+      padding: 6rem 0;
+    }
 
     @include responsive(tab-port) {
-        flex-direction: column;
-      }
+      flex-direction: column;
     }
+  }
 
-    &__title {
+  &__title {
     margin-bottom: 6rem;
-    @include responsive(phone) {
-        text-align: center;
-      }
-    }
 
-    &__text {
+    @include responsive(phone) {
+      text-align: center;
+    }
+  }
+
+  &__text {
     margin-bottom: 4.8rem;
     text-align: justify;
-    }
+  }
 
-    &__button {
-        @include responsive(phone) {
-            display: block;
-            margin: auto;
-          }
+  &__button {
+    @include responsive(phone) {
+      display: block;
+      margin: auto;
     }
+  }
 
-    &__pictures-box {
+  &__pictures-box {
     text-align: right;
 
     @include responsive(tab-port) {
-        width: 100%;
-        margin-top: 5rem;
-        text-align: center;
-      }
+      width: 100%;
+      margin-top: 5rem;
+      text-align: center;
     }
+  }
 
-    &__img-1 {
+  &__img-1 {
     max-width: 80%;
     margin-right: 12.5rem;
 
     @include responsive(tab-port) {
-        margin-right: unset;
-        width: 100%;
-      }
+      margin-right: unset;
+      width: 100%;
     }
+  }
 
-    &__img-2 {
+  &__img-2 {
     max-width: 80%;
     margin-top: .5rem;
 
     @include responsive(tab-port) {
-        width: 100%;
-      }
+      width: 100%;
     }
+  }
 }
 
 .features {
-    background-image: url(../img/background-3.png);
-    @include style-section-background;
+  background-image: url(../img/background-3.png);
+  @include style-section-background;
 
-    &__text-box {
-        @include responsive(tab-port) {
-            margin: auto;
-          }
+  &__text-box {
+    @include responsive(tab-port) {
+      margin: auto;
     }
+  }
 
-    &__text {
+  &__text {
     margin-bottom: 4.8rem;
-}
+  }
 }
 
 .booking {
-    background-image: url(../img/background-4.png);
-    @include style-section-background;
+  background-image: url(../img/background-4.png);
+  @include style-section-background;
 
-    &__text-box {
-        margin-left: auto;
+  &__text-box {
+    margin-left: auto;
 
-        @include responsive(tab-port) {
-            margin-left: unset;
-            margin: auto;
-          }
+    @include responsive(tab-port) {
+      margin-left: unset;
+      margin: auto;
     }
+  }
 
-    &__text {
-        margin-bottom: 4.8rem;
-    }
+  &__text {
+    margin-bottom: 4.8rem;
+  }
 }
 
 .testimonials {
-    background-image: url(../img/background-5.png);
-    background-size: cover;
-    padding: 12rem 0 20rem 0;
-    
+  background-image: url(../img/background-5.png);
+  background-size: cover;
+  padding: 12rem 0 20rem 0;
 
-    &__title {
-        text-align: center;
-        margin-bottom: 9rem;
-    }
+  @include responsive(phone) {
+    padding: 6rem 0;
+  }
+
+
+  &__title {
+    text-align: center;
+    margin-bottom: 9rem;
+  }
 }
-
-
-
-
-
-
-

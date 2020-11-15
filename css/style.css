@@ -607,6 +607,11 @@ ul {
     padding: 16rem 0 5rem 0;
   }
 }
+@media (max-width: 37.5em) {
+  .features {
+    padding: 6rem 0;
+  }
+}
 @media (max-width: 56.25em) {
   .features__text-box {
     margin: auto;
@@ -627,6 +632,11 @@ ul {
     padding: 16rem 0 5rem 0;
   }
 }
+@media (max-width: 37.5em) {
+  .booking {
+    padding: 6rem 0;
+  }
+}
 .booking__text-box {
   margin-left: auto;
 }
@@ -644,6 +654,11 @@ ul {
   background-image: url(../img/background-5.png);
   background-size: cover;
   padding: 12rem 0 20rem 0;
+}
+@media (max-width: 37.5em) {
+  .testimonials {
+    padding: 6rem 0;
+  }
 }
 .testimonials__title {
   text-align: center;
