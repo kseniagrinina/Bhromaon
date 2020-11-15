@@ -23,7 +23,7 @@
         }
 
         @include responsive(phone) {
-            width: 60%;
+            width: 80%;
         }
 
         &:focus {
@@ -44,7 +44,7 @@
         @include responsive(phone) {
             display: block;
             margin: auto;
-            width: 60%;
+            width: 80%;
         }
     }
 

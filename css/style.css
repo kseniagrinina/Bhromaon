@@ -358,7 +358,7 @@ ul {
 }
 @media (max-width: 37.5em) {
   .search-form__input {
-    width: 60%;
+    width: 80%;
   }
 }
 .search-form__input:focus {
@@ -377,7 +377,7 @@ ul {
   .search-form__button {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 80%;
   }
 }
 .search-form__icon {
