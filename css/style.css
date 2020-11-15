@@ -484,6 +484,11 @@ ul {
   background-color: #333333;
   padding: 12rem 0 5rem 0;
 }
+@media (max-width: 37.5em) {
+  .footer {
+    padding: 6rem 0 5rem 0;
+  }
+}
 .footer__text-box {
   display: flex;
   flex-direction: column;
