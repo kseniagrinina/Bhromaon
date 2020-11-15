@@ -12,6 +12,10 @@
     display: flex;
     padding: 11.6rem 0;
 
+    @include responsive(phone) {
+        padding: 6rem 0;
+      }
+
     @include responsive(tab-port) {
         flex-direction: column;
       }
@@ -19,10 +23,21 @@
 
     &__title {
     margin-bottom: 6rem;
+    @include responsive(phone) {
+        text-align: center;
+      }
     }
 
     &__text {
     margin-bottom: 4.8rem;
+    text-align: justify;
+    }
+
+    &__button {
+        @include responsive(phone) {
+            display: block;
+            margin: auto;
+          }
     }
 
     &__pictures-box {

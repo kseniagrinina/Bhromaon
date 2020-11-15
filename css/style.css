@@ -533,6 +533,11 @@ ul {
   display: flex;
   padding: 11.6rem 0;
 }
+@media (max-width: 37.5em) {
+  .places__wrapper {
+    padding: 6rem 0;
+  }
+}
 @media (max-width: 56.25em) {
   .places__wrapper {
     flex-direction: column;
@@ -541,8 +546,20 @@ ul {
 .places__title {
   margin-bottom: 6rem;
 }
+@media (max-width: 37.5em) {
+  .places__title {
+    text-align: center;
+  }
+}
 .places__text {
   margin-bottom: 4.8rem;
+  text-align: justify;
+}
+@media (max-width: 37.5em) {
+  .places__button {
+    display: block;
+    margin: auto;
+  }
 }
 .places__pictures-box {
   text-align: right;
