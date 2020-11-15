@@ -31,12 +31,8 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 1.5rem;
   font-family: 'Aleo', serif;
 
-  @include responsive(tab-port) {
-    padding: 0;
-  }
 }
 
 //Basic styles for links
