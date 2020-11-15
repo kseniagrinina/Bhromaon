@@ -1,27 +1,39 @@
 .scroll {
     font-family: "Josefin Sans";
-    margin-top: 15%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     animation: moveInBottom 1s ease-out;
+
+    @include responsive(tab-land) {
+        margin-top: 20%;
+    }
+
+    @include responsive(tab-port) {
+        margin-top: 30%;
+    }
+
+    @include responsive(phone) {
+        margin-top: 50%;
+    }
 
     &__link {
         transition: all .1s ease-in;
 
         &:link,
         &:visited {
-        text-transform: capitalize;
-        font-size: 14px;
-        letter-spacing: .28rem;
-    }
+            text-transform: capitalize;
+            font-size: 14px;
+            letter-spacing: .28rem;
+        }
 
         &:hover,
         &:active {
-        transform: translateY(.5rem);
+            transform: translateY(.5rem);
         }
     }
-    
+
     &__icon {
         height: .8rem;
         display: block;
@@ -31,4 +43,3 @@
     }
 
 }
-

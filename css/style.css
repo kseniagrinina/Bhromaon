@@ -433,11 +433,26 @@ ul {
 
 .scroll {
   font-family: "Josefin Sans";
-  margin-top: 15%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: moveInBottom 1s ease-out;
+}
+@media (max-width: 75em) {
+  .scroll {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 56.25em) {
+  .scroll {
+    margin-top: 30%;
+  }
+}
+@media (max-width: 37.5em) {
+  .scroll {
+    margin-top: 50%;
+  }
 }
 .scroll__link {
   transition: all 0.1s ease-in;
