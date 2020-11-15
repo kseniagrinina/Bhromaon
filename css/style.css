@@ -66,12 +66,12 @@ html {
 }
 @media (max-width: 56.25em) {
   html {
-    font-size: 50%;
+    font-size: 55%;
   }
 }
 @media (max-width: 37.5em) {
   html {
-    font-size: 40%;
+    font-size: 55%;
   }
 }
 @media (min-width: 112.5em) {
@@ -549,6 +549,11 @@ ul {
   width: 75%;
   align-self: center;
 }
+@media (max-width: 37.5em) {
+  .places__text-box {
+    width: 90%;
+  }
+}
 .places__wrapper {
   display: flex;
   padding: 11.6rem 0;
@@ -595,6 +600,11 @@ ul {
   max-width: 80%;
   margin-right: 12.5rem;
 }
+@media (max-width: 37.5em) {
+  .places__img-1 {
+    max-width: 90%;
+  }
+}
 @media (max-width: 56.25em) {
   .places__img-1 {
     margin-right: unset;
@@ -604,6 +614,11 @@ ul {
 .places__img-2 {
   max-width: 80%;
   margin-top: 0.5rem;
+}
+@media (max-width: 37.5em) {
+  .places__img-2 {
+    max-width: 90%;
+  }
 }
 @media (max-width: 56.25em) {
   .places__img-2 {

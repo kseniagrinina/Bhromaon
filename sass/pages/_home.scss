@@ -6,6 +6,10 @@
   &__text-box {
     width: 75%;
     align-self: center;
+
+    @include responsive(phone) {
+      width: 90%;
+    }
   }
 
   &__wrapper {
@@ -55,6 +59,10 @@
     max-width: 80%;
     margin-right: 12.5rem;
 
+    @include responsive(phone) {
+      max-width: 90%;
+    }
+
     @include responsive(tab-port) {
       margin-right: unset;
       width: 100%;
@@ -64,6 +72,10 @@
   &__img-2 {
     max-width: 80%;
     margin-top: .5rem;
+
+    @include responsive(phone) {
+      max-width: 90%;
+    }
 
     @include responsive(tab-port) {
       width: 100%;

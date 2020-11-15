@@ -2,55 +2,52 @@
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
 *,
-*::after
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*::after *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%; // 1rem = 10px
-    
+  font-size: 62.5%;
+
   @include responsive(tab-land) {
-      font-size: 56.25%; // 1rem = 9px, 9/16=56.25%
-    }
-    
+    font-size: 56.25%;
+  }
+
   @include responsive(tab-port) {
-      font-size: 50%; // 1rem = 8px, 8/16=50%
-    }
+    font-size: 55%;
+  }
 
   @include responsive(phone) {
-      font-size: 40%; //
-    }
+    font-size: 55%;
+  }
 
   @include responsive(big-desktop) {
-      font-size: 75%; // 1rem = 12px, 12/16=75%
+    font-size: 75%;
   }
 
 }
 
 body {
-    box-sizing: border-box;
-    padding: 1.5rem;
-    font-family: 'Aleo', serif;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  font-family: 'Aleo', serif;
 
-    @include responsive(tab-port) {
-      padding: 0;
-    }
+  @include responsive(tab-port) {
+    padding: 0;
+  }
 }
 
 //Basic styles for links
 
-  a {
-    text-decoration: none;
-    color: $color-white;
-  }
+a {
+  text-decoration: none;
+  color: $color-white;
+}
 
-  //Basic style for unordered lists
+//Basic style for unordered lists
 
-  ul {
-    list-style-type: none;
-  }
-
-
+ul {
+  list-style-type: none;
+}
