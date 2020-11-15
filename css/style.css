@@ -506,8 +506,8 @@ ul {
 }
 
 .header {
-  background-image: url(../img/background-hero.png);
-  background-position: top;
+  background-image: url(../img/background-hero.jpg);
+  background-position: bottom right;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -622,7 +622,7 @@ ul {
 }
 
 .features {
-  background-image: url(../img/background-3.png);
+  background-image: url(../img/background-3.jpg);
   background-position: top;
   background-size: cover;
   padding: 22rem 0 8rem 0;
@@ -647,7 +647,7 @@ ul {
 }
 
 .booking {
-  background-image: url(../img/background-4.png);
+  background-image: url(../img/background-4.jpg);
   background-position: top;
   background-size: cover;
   padding: 22rem 0 8rem 0;
