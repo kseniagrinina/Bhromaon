@@ -1,9 +1,11 @@
 .search-form {
     animation: moveInBottom 1s ease-out;
     -webkit-animation: moveInBottom 1s ease-out;
-    
+
 
     &__input {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0px;
         border-radius: 0;
         border: none;
         width: 30%;
@@ -18,18 +20,21 @@
 
         @include responsive(tab-port) {
             width: 50%;
-          }
+        }
 
-          @include responsive(phone) {
+        @include responsive(phone) {
             width: 60%;
-          }
+        }
+
         &:focus {
             outline: none;
+
             &::placeholder {
                 visibility: hidden;
             }
         }
     }
+
     &__button {
         vertical-align: top;
         margin-left: -.3rem;
@@ -40,8 +45,9 @@
             display: block;
             margin: auto;
             width: 60%;
-          }
+        }
     }
+
     &__icon {
         height: 2rem;
         width: 2rem;

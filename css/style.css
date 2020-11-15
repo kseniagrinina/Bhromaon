@@ -338,6 +338,7 @@ ul {
   -webkit-animation: moveInBottom 1s ease-out;
 }
 .search-form__input {
+  -webkit-appearance: none;
   border-radius: 0;
   border: none;
   width: 30%;
