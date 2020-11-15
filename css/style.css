@@ -82,13 +82,7 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 1.5rem;
   font-family: "Aleo", serif;
-}
-@media (max-width: 56.25em) {
-  body {
-    padding: 0;
-  }
 }
 
 a {
