@@ -4,6 +4,10 @@
     width: 100%;
     background-color: $color-blue;
 
+    @include responsive(phone) {
+        display: none;
+      }
+
     &__main {
         padding: 2.8rem 0;
         display: flex;

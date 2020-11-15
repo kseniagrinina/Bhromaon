@@ -2,4 +2,12 @@
     width: 44%;
     padding: 5rem 3rem;
     background-color: $color-dark-grey-1;
+
+    @include responsive(tab-port) {
+        width: 60%;
+      }
+
+      @include responsive(phone) {
+        width: 80%;
+      }
 }

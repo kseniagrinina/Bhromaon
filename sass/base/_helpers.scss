@@ -1,4 +1,13 @@
 .container {
     max-width: 110.1rem; //1110px
     margin: auto;
+
+    @include responsive(tab-land) {
+        max-width: 80%;
+      }
+
+      @include responsive(tab-port) {
+        max-width: 90%;
+      }
+
    }

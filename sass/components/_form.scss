@@ -1,11 +1,12 @@
 .search-form {
     animation: moveInBottom 1s ease-out;
     -webkit-animation: moveInBottom 1s ease-out;
+    
 
     &__input {
         border-radius: 0;
         border: none;
-        width: 50rem;
+        width: 30%;
         height: 6rem;
         padding: 2rem;
         text-align: center;
@@ -14,6 +15,14 @@
         font-size: 1.4rem;
         letter-spacing: .25rem;
         text-transform: capitalize;
+
+        @include responsive(tab-port) {
+            width: 50%;
+          }
+
+          @include responsive(phone) {
+            width: 60%;
+          }
         &:focus {
             outline: none;
             &::placeholder {
@@ -26,6 +35,12 @@
         margin-left: -.3rem;
         border: .2rem solid $color-white;
         width: 15rem;
+
+        @include responsive(phone) {
+            display: block;
+            margin: auto;
+            width: 60%;
+          }
     }
     &__icon {
         height: 2rem;

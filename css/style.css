@@ -104,6 +104,16 @@ ul {
   max-width: 110.1rem;
   margin: auto;
 }
+@media (max-width: 75em) {
+  .container {
+    max-width: 80%;
+  }
+}
+@media (max-width: 56.25em) {
+  .container {
+    max-width: 90%;
+  }
+}
 
 .header__title {
   font-family: "Josefin Sans", sans-serif;
@@ -200,6 +210,20 @@ ul {
   background-color: #333333;
   padding: 3.5rem 0 6rem 0;
 }
+@media (max-width: 37.5em) {
+  .banner {
+    display: none;
+  }
+}
+.banner__shape {
+  width: 100%;
+  height: 9.7rem;
+}
+@media (max-width: 37.5em) {
+  .banner__shape {
+    width: 75%;
+  }
+}
 .banner__top {
   text-align: center;
 }
@@ -218,6 +242,7 @@ ul {
 }
 .banner__icon {
   height: 6rem;
+  width: 100%;
   margin-bottom: 1.3rem;
 }
 .banner__icon--search {
@@ -244,6 +269,16 @@ ul {
   padding: 5rem 3rem;
   background-color: rgba(35, 35, 35, 0.9);
 }
+@media (max-width: 56.25em) {
+  .box {
+    width: 60%;
+  }
+}
+@media (max-width: 37.5em) {
+  .box {
+    width: 80%;
+  }
+}
 
 .button {
   width: 22.5rem;
@@ -268,14 +303,29 @@ ul {
 .card {
   display: flex;
   align-content: center;
-  height: 28.4rem;
+}
+@media (max-width: 56.25em) {
+  .card {
+    flex-direction: column;
+  }
 }
 .card__image {
-  max-height: 100%;
+  height: 100%;
+}
+@media (max-width: 56.25em) {
+  .card__image {
+    height: unset;
+    width: 100%;
+  }
 }
 .card__body {
   padding: 2rem 5.4rem 4.8rem 6rem;
   background-color: #333333;
+}
+@media (max-width: 56.25em) {
+  .card__body {
+    margin-top: -3px;
+  }
 }
 .card__icon {
   color: #5474fd;
@@ -290,7 +340,7 @@ ul {
 .search-form__input {
   border-radius: 0;
   border: none;
-  width: 50rem;
+  width: 30%;
   height: 6rem;
   padding: 2rem;
   text-align: center;
@@ -299,6 +349,16 @@ ul {
   font-size: 1.4rem;
   letter-spacing: 0.25rem;
   text-transform: capitalize;
+}
+@media (max-width: 56.25em) {
+  .search-form__input {
+    width: 50%;
+  }
+}
+@media (max-width: 37.5em) {
+  .search-form__input {
+    width: 60%;
+  }
 }
 .search-form__input:focus {
   outline: none;
@@ -311,6 +371,13 @@ ul {
   margin-left: -0.3rem;
   border: 0.2rem solid #ffffff;
   width: 15rem;
+}
+@media (max-width: 37.5em) {
+  .search-form__button {
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
 }
 .search-form__icon {
   height: 2rem;
@@ -325,6 +392,11 @@ ul {
   bottom: 0;
   width: 100%;
   background-color: #5474fd;
+}
+@media (max-width: 37.5em) {
+  .nav {
+    display: none;
+  }
 }
 .nav__main {
   padding: 2.8rem 0;
@@ -427,6 +499,7 @@ ul {
 }
 .header__text-box {
   position: absolute;
+  width: 100%;
   top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -449,6 +522,8 @@ ul {
 
 .places {
   background-image: url(../img/background-2.png);
+  background-size: cover;
+  background-position: left;
 }
 .places__text-box {
   width: 75%;
@@ -457,6 +532,11 @@ ul {
 .places__wrapper {
   display: flex;
   padding: 11.6rem 0;
+}
+@media (max-width: 56.25em) {
+  .places__wrapper {
+    flex-direction: column;
+  }
 }
 .places__title {
   margin-bottom: 6rem;
@@ -467,13 +547,31 @@ ul {
 .places__pictures-box {
   text-align: right;
 }
+@media (max-width: 56.25em) {
+  .places__pictures-box {
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;
+  }
+}
 .places__img-1 {
-  max-width: 100%;
+  max-width: 80%;
   margin-right: 12.5rem;
 }
+@media (max-width: 56.25em) {
+  .places__img-1 {
+    margin-right: unset;
+    width: 100%;
+  }
+}
 .places__img-2 {
-  max-width: 100%;
+  max-width: 80%;
   margin-top: 0.5rem;
+}
+@media (max-width: 56.25em) {
+  .places__img-2 {
+    width: 100%;
+  }
 }
 
 .features {
@@ -481,6 +579,16 @@ ul {
   background-position: top;
   background-size: cover;
   padding: 22rem 0 8rem 0;
+}
+@media (max-width: 56.25em) {
+  .features {
+    padding: 16rem 0 5rem 0;
+  }
+}
+@media (max-width: 56.25em) {
+  .features__text-box {
+    margin: auto;
+  }
 }
 .features__text {
   margin-bottom: 4.8rem;
@@ -492,8 +600,19 @@ ul {
   background-size: cover;
   padding: 22rem 0 8rem 0;
 }
+@media (max-width: 56.25em) {
+  .booking {
+    padding: 16rem 0 5rem 0;
+  }
+}
 .booking__text-box {
   margin-left: auto;
+}
+@media (max-width: 56.25em) {
+  .booking__text-box {
+    margin-left: unset;
+    margin: auto;
+  }
 }
 .booking__text {
   margin-bottom: 4.8rem;
