@@ -8,14 +8,16 @@
     text-transform: uppercase;
     letter-spacing: .12rem;
     color: $color-white;
-    
+
     text-align: center;
+
     &:focus {
         outline: none;
     }
+
     &:hover,
     &:active {
-        background-color: darken($color-blue, 3%);
+        background-color: lighten($color-blue, 5%);
         cursor: pointer;
     }
 }

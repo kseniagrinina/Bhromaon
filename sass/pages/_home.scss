@@ -1,5 +1,5 @@
 .places {
-  background-image: url(../img/background-2.png);
+  background-image: url(../img/background-2.jpg);
   background-size: cover;
   background-position: left;
 
@@ -28,9 +28,10 @@
   &__title {
     margin-bottom: 6rem;
 
-    @include responsive(phone) {
+    @include responsive(tab-port) {
       text-align: center;
     }
+
   }
 
   &__text {
@@ -39,10 +40,12 @@
   }
 
   &__button {
-    @include responsive(phone) {
+
+    @include responsive(tab-port) {
       display: block;
       margin: auto;
     }
+
   }
 
   &__pictures-box {
